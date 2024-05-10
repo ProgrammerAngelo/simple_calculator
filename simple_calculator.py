@@ -9,16 +9,19 @@ def addition():
         sum = number_1 + number_2
         print("The sum is:\n",sum)
     except:
-        print("Invalid input! Please enter numbers only")
+        print("Invalid input! Please enter numbers only\n")
         
 
 #add a method for subtraction
 def subtraction():
-    print("\nSubtraction")
-    number_1 = float(input("Enter first number:\n"))
-    number_2 = float(input("Enter second number:\n"))
-    difference = number_1 - number_2
-    print("The difference is:\n",difference)
+    try:
+        print("\nSubtraction")
+        number_1 = float(input("Enter first number:\n"))
+        number_2 = float(input("Enter second number:\n"))
+        difference = number_1 - number_2
+        print("The difference is:\n",difference)
+    except:
+        print("Invalid input! Please enter numbers only\n")
 
 #add a method for multiplication
 def multiplication():
