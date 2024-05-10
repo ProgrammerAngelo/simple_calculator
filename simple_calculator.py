@@ -1,12 +1,16 @@
-#add a method for "try" function for detecting the error
 
 #add a method for addition
 def addition():
     print("\nAddition")
-    number_1 = float(input("Enter first number:\n"))
-    number_2 = float(input("Enter second number:\n"))
-    sum = number_1 + number_2
-    print("The sum is:\n",sum)
+    #add a method for "try" function for detecting the error
+    try:
+        number_1 = float(input("Enter first number:\n"))
+        number_2 = float(input("Enter second number:\n"))
+        sum = number_1 + number_2
+        print("The sum is:\n",sum)
+    except:
+        print("Invalid input! Please enter numbers only")
+        
 
 #add a method for subtraction
 def subtraction():
