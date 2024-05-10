@@ -11,5 +11,9 @@ number_2 = float(input("Enter second number:\n"))
 difference = number_1 - number_2
 print("The difference is:\n",difference)
 #add a method for multiplication
+number_1 =float(input("Enter first number:\n"))
+number_2 = float(input("Enter second number:\n"))
+product = number_1 * number_2
+print("The difference is:\n",product)
 #add a method for division
 #add a font,and colors for the text
