@@ -38,15 +38,18 @@ def multiplication():
 def division():
     print("\nDivision")
     while True:
-        number_1 =float(input("Enter first number:\n"))
-        number_2 = float(input("Enter second number:\n"))
-        if number_2 == 0:
-            print("You cannot devide a number by zero!")
-            print("Please enter a number other that Zero(0)")
-        else:
-            qoutient = number_1 / number_2
-            print("The difference is:\n",qoutient)
-            break
+        try:
+            number_1 =float(input("Enter first number:\n"))
+            number_2 = float(input("Enter second number:\n"))
+            if number_2 == 0:
+                print("You cannot devide a number by zero!")
+                print("Please enter a number other that Zero(0)")
+            else:
+                qoutient = number_1 / number_2
+                print("The difference is:\n",qoutient)
+                break
+        except:
+            print("Invalid input! Please enter numbers only\n")
 
 #add a method that allows the user to pick between the operation: addition,subtraction,multiplication,division
 while True:
