@@ -3,7 +3,7 @@
 #add a method for "try" function for detecting the error
 
 #add a method for addition
-print("Addition")
+print("\nAddition")
 def addition():
     number_1 = float(input("Enter first number:\n"))
     number_2 = float(input("Enter second number:\n"))
@@ -12,10 +12,13 @@ def addition():
 addition()
 
 #add a method for subtraction
-number_1 = float(input("Enter first number:\n"))
-number_2 = float(input("Enter second number:\n"))
-difference = number_1 - number_2
-print("The difference is:\n",difference)
+print("\nsubtraction")
+def subtraction():
+    number_1 = float(input("Enter first number:\n"))
+    number_2 = float(input("Enter second number:\n"))
+    difference = number_1 - number_2
+    print("The difference is:\n",difference)
+subtraction()
 
 #add a method for multiplication
 number_1 =float(input("Enter first number:\n"))
