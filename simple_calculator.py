@@ -40,7 +40,8 @@ def division():
 
 #add a method that allows the user to pick between the operation: addition,subtraction,multiplication,division
 while True:
-    print("Choose an operation\nEnter (1/2/3/4):")
+    print("\nHello User")
+    print("Choose an operation\nEnter (1,2,3,4):")
     print("1. Addition")
     print("2. Subtraction")
     print("3. Multiplication")
@@ -57,7 +58,10 @@ while True:
     elif choices == "4":
         division()
     else:
-        print("Invalid input")
-        
-    break
+        print("Invalid input\nPlease choose a number between 1,2,3,4")
+    
+    try_again = input("Would you like to continue? (yes/no):\n")
+    if try_again.lower() != "yes":
+        print("Thank You!")
+        break
 #add a font,and colors for the text
