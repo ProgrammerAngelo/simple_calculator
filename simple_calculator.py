@@ -1,40 +1,39 @@
 
-#add a method for addition
+# Add a method for addition
 def addition():
     print("\nAddition")
-    #add a method for "try" function for detecting the error
+    # Add a method for "try" function for detecting the error
     try:
         number_1 = float(input("Enter first number:\n"))
         number_2 = float(input("Enter second number:\n"))
         sum = number_1 + number_2
-        print("The sum is:\n",sum)
+        print("The sum is:\n", sum)
     except:
-        print("Invalid input! Please enter numbers only\n")
-        
+        print("Invalid input! Please enter numbers only\n") 
 
-#add a method for subtraction
+# Add a method for subtraction
 def subtraction():
     try:
         print("\nSubtraction")
         number_1 = float(input("Enter first number:\n"))
         number_2 = float(input("Enter second number:\n"))
         difference = number_1 - number_2
-        print("The difference is:\n",difference)
+        print("The difference is:\n", difference)
     except:
         print("Invalid input! Please enter numbers only\n")
 
-#add a method for multiplication
+# Add a method for multiplication
 def multiplication():
     print("\nMultiplication")
     try:
         number_1 =float(input("Enter first number:\n"))
         number_2 = float(input("Enter second number:\n"))
         product = number_1 * number_2
-        print("The difference is:\n",product)
+        print("The product is:\n", product)
     except:
         print("Invalid input! Please enter numbers only\n")
 
-#add a method for division
+# Add a method for division
 def division():
     print("\nDivision")
     while True:
@@ -42,16 +41,16 @@ def division():
             number_1 =float(input("Enter first number:\n"))
             number_2 = float(input("Enter second number:\n"))
             if number_2 == 0:
-                print("You cannot devide a number by zero!")
-                print("Please enter a number other that Zero(0)")
+                print("You cannot divide a number by zero!")
+                print("Please enter a number other than zero(0)")
             else:
-                qoutient = number_1 / number_2
-                print("The difference is:\n",qoutient)
+                quotient = number_1 / number_2
+                print("The difference is:\n", quotient)
                 break
         except:
             print("Invalid input! Please enter numbers only\n")
 
-#add a method that allows the user to pick between the operation: addition,subtraction,multiplication,division
+# Add a method that allows the user to pick between the operation: addition, subtraction, multiplication, division
 while True:
     print("\nHello User")
     print("Choose an operation\nEnter (1,2,3,4):")
@@ -77,4 +76,4 @@ while True:
     if try_again.lower() != "yes":
         print("Thank You!")
         break
-#add a font,and colors for the text
+# Add a font,and colors for the text
