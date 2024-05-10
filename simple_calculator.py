@@ -26,10 +26,13 @@ def subtraction():
 #add a method for multiplication
 def multiplication():
     print("\nMultiplication")
-    number_1 =float(input("Enter first number:\n"))
-    number_2 = float(input("Enter second number:\n"))
-    product = number_1 * number_2
-    print("The difference is:\n",product)
+    try:
+        number_1 =float(input("Enter first number:\n"))
+        number_2 = float(input("Enter second number:\n"))
+        product = number_1 * number_2
+        print("The difference is:\n",product)
+    except:
+        print("Invalid input! Please enter numbers only\n")
 
 #add a method for division
 def division():
