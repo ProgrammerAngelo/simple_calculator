@@ -1,37 +1,32 @@
-#add a method that allows the user to pick between the operation: addition,subtraction,multiplication,division
-
 #add a method for "try" function for detecting the error
 
 #add a method for addition
-print("\nAddition")
 def addition():
+    print("\nAddition")
     number_1 = float(input("Enter first number:\n"))
     number_2 = float(input("Enter second number:\n"))
     sum = number_1 + number_2
     print("The sum is:\n",sum)
-addition()
 
 #add a method for subtraction
-print("\nSubtraction")
 def subtraction():
+    print("\nSubtraction")
     number_1 = float(input("Enter first number:\n"))
     number_2 = float(input("Enter second number:\n"))
     difference = number_1 - number_2
     print("The difference is:\n",difference)
-subtraction()
 
 #add a method for multiplication
-print("\nMultiplication")
 def multiplication():
+    print("\nMultiplication")
     number_1 =float(input("Enter first number:\n"))
     number_2 = float(input("Enter second number:\n"))
     product = number_1 * number_2
     print("The difference is:\n",product)
-multiplication()
 
 #add a method for division
-print("\nDivision")
 def division():
+    print("\nDivision")
     while True:
         number_1 =float(input("Enter first number:\n"))
         number_2 = float(input("Enter second number:\n"))
@@ -42,5 +37,27 @@ def division():
             qoutient = number_1 / number_2
             print("The difference is:\n",qoutient)
             break
-division()
+
+#add a method that allows the user to pick between the operation: addition,subtraction,multiplication,division
+while True:
+    print("Choose an operation\nEnter (1/2/3/4):")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+    choices = input("Enter your choice:\n")
+    print("Your choice is: ",choices)
+
+    if choices == "1":
+        addition()
+    elif choices == "2":
+        subtraction()
+    elif choices == "3":
+        multiplication()
+    elif choices == "4":
+        division()
+    else:
+        print("Invalid input")
+        
+    break
 #add a font,and colors for the text
