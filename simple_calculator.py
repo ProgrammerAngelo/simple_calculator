@@ -3,10 +3,12 @@
 #add a method for "try" function for detecting the error
 
 #add a method for addition
-number_1 = float(input("Enter first number:\n"))
-number_2 = float(input("Enter second number:\n"))
-sum = number_1 + number_2
-print("The sum is:\n",sum)
+print("Additon")
+def additon():
+    number_1 = float(input("Enter first number:\n"))
+    number_2 = float(input("Enter second number:\n"))
+    sum = number_1 + number_2
+    print("The sum is:\n",sum)
 
 #add a method for subtraction
 number_1 = float(input("Enter first number:\n"))
