@@ -9,7 +9,7 @@ def additon():
     number_2 = float(input("Enter second number:\n"))
     sum = number_1 + number_2
     print("The sum is:\n",sum)
-
+additon()
 #add a method for subtraction
 number_1 = float(input("Enter first number:\n"))
 number_2 = float(input("Enter second number:\n"))
