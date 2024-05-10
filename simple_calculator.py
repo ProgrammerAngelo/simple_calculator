@@ -12,7 +12,7 @@ def addition():
 addition()
 
 #add a method for subtraction
-print("\nsubtraction")
+print("\nSubtraction")
 def subtraction():
     number_1 = float(input("Enter first number:\n"))
     number_2 = float(input("Enter second number:\n"))
@@ -21,10 +21,13 @@ def subtraction():
 subtraction()
 
 #add a method for multiplication
-number_1 =float(input("Enter first number:\n"))
-number_2 = float(input("Enter second number:\n"))
-product = number_1 * number_2
-print("The difference is:\n",product)
+print("\nMultiplication")
+def multiplication():
+    number_1 =float(input("Enter first number:\n"))
+    number_2 = float(input("Enter second number:\n"))
+    product = number_1 * number_2
+    print("The difference is:\n",product)
+multiplication()
 
 #add a method for division
 while True:
