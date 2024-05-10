@@ -30,15 +30,17 @@ def multiplication():
 multiplication()
 
 #add a method for division
-while True:
-    number_1 =float(input("Enter first number:\n"))
-    number_2 = float(input("Enter second number:\n"))
-    if number_2 == 0:
-        print("You cannot devide a number by zero!")
-        print("Please enter a number other that Zero(0)")
-    else:
-        qoutient = number_1 / number_2
-        print("The difference is:\n",qoutient)
-        break
-
+print("\nDivision")
+def division():
+    while True:
+        number_1 =float(input("Enter first number:\n"))
+        number_2 = float(input("Enter second number:\n"))
+        if number_2 == 0:
+            print("You cannot devide a number by zero!")
+            print("Please enter a number other that Zero(0)")
+        else:
+            qoutient = number_1 / number_2
+            print("The difference is:\n",qoutient)
+            break
+division()
 #add a font,and colors for the text
